@@ -11,11 +11,17 @@ body, html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(gifs/gif2.jpg);
-    background-size: cover;
-    background-repeat: repeat-y;
     overflow-x: hidden;
     backdrop-filter: blur(5px);
+    margin: 0;
+    padding: 0;
+}
+
+.background-fixed {
+    background-image: url(gifs/gif2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top 10%;
 }
 
 .main1, .main2 {
@@ -108,6 +114,9 @@ body {
     padding: 2%;
     border-radius: 30px;
     margin: 2%;
+}
+
+.menu2-content {
 }
 
 .circle {
