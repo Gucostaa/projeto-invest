@@ -114,6 +114,42 @@ body {
     padding: 2%;
     border-radius: 30px;
     margin: 2%;
+    display: flex;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.menu2 p {
+    color: gainsboro;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center left;
+    justify-content: center;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-box1{
+    background-color: #FC640D;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 2%;
+    margin: 5% 3%;
+    width: 500px;
+    height: 350px;
+}
+
+.box1-text h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: gainsboro;
+    text-align: center;
 }
 
 .menu2-content {
